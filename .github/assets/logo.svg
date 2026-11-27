@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="330 240 690 700">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <polygon id="k" filter="url(#glow)" fill="none" stroke="#b52cff" stroke-width="26" stroke-linejoin="miter"
+    points="396,358 520,298 520,578 776,380 942,380 665,597 920,800 920,886 826,886 582,654 396,840"/>
+  <polygon fill="none" stroke="#e7a8ff" stroke-width="8" stroke-linejoin="miter"
+    points="396,358 520,298 520,578 776,380 942,380 665,597 920,800 920,886 826,886 582,654 396,840"/>
+</svg>
